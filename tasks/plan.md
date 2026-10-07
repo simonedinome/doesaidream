@@ -18,7 +18,7 @@ Costruire l'archivio Supabase che fa da confine tra tutti i moduli: schema, macc
 ## Task List
 
 ### Phase 1: Fondamenta
-- [ ] Task 0a: Ambiente di sviluppo in Codespaces
+- [x] Task 0a: Ambiente di sviluppo in Codespaces
 - [ ] Task 0b: Progetto Supabase remoto (azione dell'autore)
 - [ ] Task 0c: Verifica connessione di engine_writer (spike, rischio alto)
 - [ ] Task 1: Fonti e candidati (R10)
