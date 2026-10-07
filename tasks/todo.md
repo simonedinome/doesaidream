@@ -7,13 +7,15 @@ Spec: `SPEC-data-store.md`. Piano: `tasks/plan.md`. Comandi di verifica standard
 **Description:** Preparare il devcontainer con Docker-in-Docker e Supabase CLI, inizializzare Supabase in locale e predisporre `.gitignore`, `.env.example` e README.
 
 **Acceptance criteria:**
-- [ ] Il Codespace si avvia con Docker funzionante e Supabase CLI installata
-- [ ] `supabase start` avvia lo stack locale e `supabase db reset` esegue su database vuoto
-- [ ] Nessuna chiave o stringa di connessione nel repository; i segreti sono elencati solo in `.env.example`
+- [x] Il Codespace si avvia con Docker funzionante e Supabase CLI installata
+- [x] `supabase start` avvia lo stack locale e `supabase db reset` esegue su database vuoto
+- [x] Nessuna chiave o stringa di connessione nel repository; i segreti sono elencati solo in `.env.example`
 
 **Verification:**
-- [ ] `supabase status` mostra i servizi attivi
-- [ ] Manual check: `git grep` non trova password, chiavi o stringhe di connessione
+- [x] `supabase status` mostra i servizi attivi
+- [x] Manual check: `git grep` non trova password, chiavi o stringhe di connessione
+
+**Stato (2026-10-07):** completato. Verificato dall'autore in un Codespace da 2 core sul branch `claude/gifted-brahmagupta-6eae08`: creazione senza errori; `supabase start` riuscito con Studio, REST, GraphQL e database che rispondono; `supabase status` con i servizi spenti in `config.toml` in stato Stopped e "Not linked" (il link è nel Task 0b); `supabase db reset` concluso con il solo avviso atteso `no files matched pattern: supabase/seed.sql` (il seed arriva nel Task 9); porte 54321, 54322 e 54323 private.
 
 **Dependencies:** None
 

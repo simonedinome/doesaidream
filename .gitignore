@@ -1,0 +1,10 @@
+# Segreti: nel repository solo .env.example, mai i valori
+.env
+.env.*
+!.env.example
+
+# Dipendenze
+node_modules/
+
+# Sistema
+.DS_Store
