@@ -11,3 +11,4 @@ sudo ln -sf "$PWD/node_modules/.bin/supabase" /usr/local/bin/supabase
 supabase --version
 psql --version
 docker --version
+claude --version

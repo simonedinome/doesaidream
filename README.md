@@ -20,6 +20,7 @@ Il devcontainer in `.devcontainer/` prepara:
 2. Docker-in-Docker, necessario per `supabase start`
 3. Supabase CLI, versione fissata in `package.json` e `package-lock.json`, installata con `npm ci` e disponibile come comando `supabase`
 4. Client `psql`, per le verifiche di connessione al database remoto
+5. Claude Code (CLI ed estensione VS Code), con cui si lavora ai task da `tasks/todo.md`; al primo avvio di `claude` serve l'accesso con il proprio account, da ripetere dopo ogni ricostruzione del Codespace
 
 Primo avvio: dalla pagina del repository, **Code → Codespaces → Create codespace on `<branch>`**. Alla prima creazione lo script `.devcontainer/post-create.sh` installa tutto e stampa le versioni (alcuni minuti). Basta la macchina da 2 core e 8 GB.
 
