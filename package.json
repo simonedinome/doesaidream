@@ -1,0 +1,11 @@
+{
+  "name": "doesaidream",
+  "private": true,
+  "description": "doandroidsdream: archivio, motore e sito",
+  "engines": {
+    "node": ">=20"
+  },
+  "devDependencies": {
+    "supabase": "2.120.0"
+  }
+}

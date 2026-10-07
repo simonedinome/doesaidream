@@ -9,11 +9,13 @@ Spec: `SPEC-data-store.md`. Piano: `tasks/plan.md`. Comandi di verifica standard
 **Acceptance criteria:**
 - [ ] Il Codespace si avvia con Docker funzionante e Supabase CLI installata
 - [ ] `supabase start` avvia lo stack locale e `supabase db reset` esegue su database vuoto
-- [ ] Nessuna chiave o stringa di connessione nel repository; i segreti sono elencati solo in `.env.example`
+- [x] Nessuna chiave o stringa di connessione nel repository; i segreti sono elencati solo in `.env.example`
 
 **Verification:**
 - [ ] `supabase status` mostra i servizi attivi
-- [ ] Manual check: `git grep` non trova password, chiavi o stringhe di connessione
+- [x] Manual check: `git grep` non trova password, chiavi o stringhe di connessione
+
+**Stato (2026-10-07):** file pronti. Le caselle aperte richiedono un Codespace reale: la sessione cloud in cui sono stati scritti non raggiunge i registri delle immagini Docker, quindi `supabase start` non è stato eseguito.
 
 **Dependencies:** None
 
